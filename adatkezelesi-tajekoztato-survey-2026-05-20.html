@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adatkezelési tájékoztató — Magyar PM-benchmark mini-felmérés</title>
+  <meta name="description" content="Adatkezelési tájékoztató a Magyar PM-benchmark mini-felméréshez." />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #1f2328;
+      --muted: #57606a;
+      --border: #d0d7de;
+      --accent: #0969da;
+      --card: #f6f8fa;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --fg: #e6edf3;
+        --muted: #9da7b3;
+        --border: #30363d;
+        --accent: #58a6ff;
+        --card: #161b22;
+      }
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h2 {
+      margin-top: 2.2rem;
+      padding-top: 0.4rem;
+      border-top: 1px solid var(--border);
+    }
+    p, li { margin: 0.5rem 0; }
+    .meta, blockquote {
+      background: var(--card);
+      border-left: 4px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 6px;
+      color: var(--muted);
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+    a { color: var(--accent); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      display: block;
+      overflow-x: auto;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--card); }
+    code {
+      background: var(--card);
+      padding: 0.1em 0.35em;
+      border-radius: 4px;
+    }
+    ul, ol { padding-left: 1.4rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Adatkezelési tájékoztató — Magyar PM-benchmark mini-felmérés</h1>
+
+    <div class="meta">
+      <p><strong>Verzió:</strong> 1.0<br>
+      <strong>Érvényesség kezdete:</strong> 2026-05-20<br>
+      <strong>Készült:</strong> EU 2016/679 (GDPR) rendelet és a magyar 2011. évi CXII. törvény (Infotv.) alapján.</p>
+    </div>
+
+    <hr>
+
+    <h2>1. Adatkezelő adatai</h2>
+    <p><strong>Adatkezelő neve:</strong> Bella Gábor egyéni vállalkozó<br>
+    <strong>Székhely:</strong> 1164 Budapest, Vidámvásár utca 40.<br>
+    <strong>Nyilvántartási szám:</strong> 54706806<br>
+    <strong>Adószám:</strong> 55957359-1-42<br>
+    <strong>Email:</strong> bellgab@bella-eke.hu<br>
+    <strong>Telefon:</strong> +36501205690</p>
+
+    <p><strong>Adatvédelmi kapcsolattartó:</strong> Az adatkezelővel azonos személy (egyéni vállalkozói méret miatt külön adatvédelmi tisztviselő kinevezése nem kötelező a GDPR 37. cikke szerint).</p>
+
+    <h2>2. Az adatkezelés célja és jogalapja</h2>
+
+    <h3>2.1 Az adatkezelés céljai</h3>
+    <p><strong>A "Magyar PM-benchmark" online kérdőív kitöltése során kezelt adatok célja:</strong></p>
+    <ol>
+      <li><strong>Aggregált eredmény-email kiküldése:</strong> ha a kitöltő megadja az email-címét, az adatkezelő egyetlen alkalommal kiküldi neki a felmérés aggregált (személyhez nem köthető) eredményeit.</li>
+      <li><strong>Opcionális pilot-megkeresés:</strong> az adatkezelő SynCore néven egy magyar ingatlankezelő szoftvert fejleszt. Ha a kitöltő érdeklődést mutat (pl. a survey-ben opcionálisan jelzi), az adatkezelő később egyszer felveheti vele a kapcsolatot pilot-egyeztetés céljából.</li>
+      <li><strong>Belső kutatási elemzés:</strong> a felmérés válaszai (személyhez nem köthető, aggregált formában) felhasználásra kerülnek a SynCore termékfejlesztési döntéseihez.</li>
+    </ol>
+
+    <h3>2.2 Az adatkezelés jogalapja</h3>
+    <p><strong>A GDPR 6. cikk (1) bekezdés a) pontja szerinti hozzájárulás</strong> — az érintett a kérdőív kitöltésével és az email-mező opcionális kitöltésével <strong>kifejezetten hozzájárul</strong> az 1-2. pont szerinti adatkezeléshez.</p>
+    <p>A kérdőív többi (anonim) kérdéseinek kezelése a GDPR 6. cikk (1) bekezdés f) pontja szerinti <strong>jogos érdeken</strong> alapul: az adatkezelő mint szoftverfejlesztő jogos érdeke, hogy piackutatási jellegű, anonim benchmark információkat gyűjtsön a termékfejlesztés támogatására.</p>
+
+    <h2>3. A kezelt személyes adatok köre</h2>
+    <p><strong>Kötelezően kezelt adatok (anonim, NEM személyes):</strong></p>
+    <ul>
+      <li>A Q1-Q5 kérdésekre adott válaszok (multiple-choice, nincs szabadszöveg).</li>
+      <li>A kitöltés időbélyege (Tally automatikus rögzítés).</li>
+    </ul>
+
+    <p><strong>Opcionálisan kezelt személyes adat:</strong></p>
+    <ul>
+      <li><strong>Email-cím</strong> — kizárólag akkor, ha az érintett a Q6 mezőt önkéntesen kitölti.</li>
+    </ul>
+
+    <p><strong>Más személyes adatot az adatkezelő NEM gyűjt:</strong> nem kéri a nevet, telefonszámot, lakcímet, IP-címet vagy bármi más személyazonosító adatot.</p>
+
+    <h3>3.1 Mit jelent ez gyakorlatban?</h3>
+    <ul>
+      <li>Aki <strong>NEM</strong> adja meg az email-címét → teljes anonimitás. A válasza nem köthető senkihez.</li>
+      <li>Aki <strong>megadja</strong> az email-címét → a Q1-Q5 válaszai az email mellé kerülnek a Tally-adatbázisban. Ezt csak az adatkezelő látja.</li>
+    </ul>
+
+    <h2>4. Az adatok tárolásának helye</h2>
+
+    <h3>4.1 Tally.so (elsődleges tárolás)</h3>
+    <p>A kérdőív platformja <strong>Tally Forms BV</strong> (székhely: Belgium, EU). Tally.so a GDPR-rel összhangban tárolja az adatokat <strong>az EU-ban</strong> (AWS Frankfurt és Dublin régiók). Tally adatfeldolgozási szerződése (DPA) elérhető a szolgáltató oldalán.</p>
+
+    <h3>4.2 Email-küldő rendszer (másodlagos érintkezés)</h3>
+    <p>Az aggregált eredmény-email és az opcionális pilot-megkeresés <strong>Google Workspace (Gmail)</strong> rendszeréből kerül kiküldésre (<code>bellgab@gmail.com</code>). A kiküldött emailek a Gmail "Sent" mappájában archiválódhatnak a normál email-megőrzési szabályok szerint.</p>
+
+    <h3>4.3 NEM tároljuk</h3>
+    <ul>
+      <li>Saját szerveren (a SynCore még fejlesztés alatt, a survey-adat NEM kerül a v1 rendszerbe).</li>
+      <li>Külső, EU-n kívüli adatfeldolgozónál.</li>
+      <li>Marketing-automation eszközben (pl. Mailchimp) — ilyet NEM használunk.</li>
+    </ul>
+
+    <h2>5. Az adatok tárolásának időtartama</h2>
+    <p><strong>Email-cím (Tally + Gmail tárolásban):</strong> <strong>12 hónap</strong> a kitöltés napjától számítva.</p>
+
+    <p><strong>Részletes ütemezés:</strong></p>
+    <ul>
+      <li>T+0 (kitöltés napja) → tárolás kezdete.</li>
+      <li>T+0 — T+12 hónap → az adatkezelő használhatja az emailt aggregált eredmény-küldésre (egyszer) és opcionálisan pilot-megkeresésre (egyszer).</li>
+      <li><strong>T+12 hónap → manuális törlés</strong> a Tally-rendszerből. A Gmail-archívumban szereplő kapcsolódó levelek kezelése szintén a szükségesség és adattakarékosság elve szerint történik.</li>
+    </ul>
+
+    <p><strong>Indok:</strong> A 12 hónap fedi a SynCore v1 fejlesztési időszak első felét, ezalatt egy vagy két email-kommunikáció lehetséges (eredmény + pilot). A 12 hónap utáni tárolás már aránytalan az eredeti célokhoz képest.</p>
+
+    <p><strong>Operatív intézkedés:</strong> Az adatkezelő naptári emlékeztetőt állít be minden kitöltés-batch T+12 hónapjára, hogy a manuális törlés ne maradjon ki.</p>
+
+    <p><strong>Anonim válaszok (Q1-Q5):</strong> ha a kitöltő NEM adta meg az email-címét, a válasz aggregált formában korlátlanul megőrizhető (személyhez nem köthető). Ha email-t is megadott, a válasz az emailhez kapcsolódó adatkezelés részeként kezelendő a törlésig.</p>
+
+    <h2>6. Adatfeldolgozók</h2>
+    <p>Az adatkezelő harmadik felet csak az adattárolás technikai megvalósítására vesz igénybe:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Adatfeldolgozó</th>
+          <th>Tevékenység</th>
+          <th>Székhely / Tárolás</th>
+          <th>DPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Tally Forms BV</strong></td>
+          <td>Online kérdőív hosting + válaszok tárolása</td>
+          <td>Belgium / EU (AWS Frankfurt, Dublin)</td>
+          <td><a href="https://tally.so/help/data-processing-agreement">Tally DPA</a></td>
+        </tr>
+        <tr>
+          <td><strong>Google Ireland Ltd.</strong></td>
+          <td>Email küldés (Gmail)</td>
+          <td>Írország / EU</td>
+          <td><a href="https://workspace.google.com/terms/dpa_terms.html">Google DPA</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>Más adatfeldolgozót az adatkezelő NEM vesz igénybe.</strong> Az adatok harmadik fél részére (beleértve hatóságot is) átadásra <strong>CSAK törvényi kötelezettség alapján</strong> kerülhetnek.</p>
+
+    <h2>7. Az érintett jogai</h2>
+    <p>Az érintett <strong>bármikor, ingyenesen, formai kötöttség nélkül</strong> gyakorolhatja a következő jogokat:</p>
+
+    <h3>7.1 Hozzáférés joga (GDPR 15. cikk)</h3>
+    <ul>
+      <li>Kérheted, hogy az adatkezelő tájékoztasson arról, milyen személyes adatokat kezel rólad.</li>
+      <li>Másolat kérhető a tárolt adatokról.</li>
+    </ul>
+
+    <h3>7.2 Helyesbítés joga (GDPR 16. cikk)</h3>
+    <ul>
+      <li>Ha a tárolt email-címed elavult vagy hibás, kérheted a helyesbítést.</li>
+    </ul>
+
+    <h3>7.3 Törlés joga ("right to be forgotten", GDPR 17. cikk)</h3>
+    <ul>
+      <li>Bármikor kérheted a teljes email-címed és hozzá kapcsolódó válaszaid törlését.</li>
+      <li><strong>Egy email a bellgab@gmail.com-ra → 7 napon belül törlés.</strong></li>
+    </ul>
+
+    <h3>7.4 Hozzájárulás visszavonása (GDPR 7. cikk (3) bek.)</h3>
+    <ul>
+      <li>Az email-elérhetőség kezeléséhez adott hozzájárulás bármikor visszavonható, ugyanazon az úton, ahogyan megadtad (egy email a bellgab@gmail.com-ra elég).</li>
+    </ul>
+
+    <h3>7.5 Adathordozhatóság (GDPR 20. cikk)</h3>
+    <ul>
+      <li>Kérheted, hogy az adatkezelő strukturált, géppel olvasható formában (CSV, JSON) adja át neked a rád vonatkozó adatokat.</li>
+    </ul>
+
+    <h3>7.6 Tiltakozás (GDPR 21. cikk)</h3>
+    <ul>
+      <li>Ha az adatkezelés jogos érdeken alapul, tiltakozhatsz ellene.</li>
+    </ul>
+
+    <h2>8. Adatbiztonsági intézkedések</h2>
+    <p>Az adatkezelő az alábbi technikai és szervezeti intézkedéseket alkalmazza:</p>
+    <ul>
+      <li><strong>Hozzáférés-kontroll</strong>: a Tally-fiókhoz és a Gmail-hez csak az adatkezelő fér hozzá, kétfaktoros hitelesítéssel.</li>
+      <li><strong>Titkosítás átvitel közben</strong>: a Tally és a Gmail HTTPS/TLS protokollt használ.</li>
+      <li><strong>Tárolási titkosítás</strong>: a Tally AWS-tárolása "encryption at rest" szabványnak megfelelő.</li>
+      <li><strong>Nincs nyilvános exportált CSV</strong>: az adatkezelő NEM tárol exportált CSV-t megosztott rendszerben (Dropbox, Google Drive nyilvános mappa stb.). Ha analízis céljából exportál, a fájl csak helyi, jelszóval védett környezetben kerül feldolgozásra.</li>
+      <li><strong>Megosztás kizárt</strong>: a válaszokat harmadik féllel az adatkezelő NEM osztja meg, kivéve aggregált, anonimizált formában (lásd 2.1).</li>
+    </ul>
+
+    <p><strong>Adatvédelmi incidens (adatszivárgás) esetén:</strong></p>
+    <ul>
+      <li>72 órán belül bejelentés a NAIH-nak (GDPR 33. cikk).</li>
+      <li>Ha az érintettre jelentős kockázattal jár, az érintett kiértesítése is megtörténik (GDPR 34. cikk).</li>
+    </ul>
+
+    <h2>9. Panasztétel és jogorvoslat</h2>
+
+    <h3>9.1 Az adatkezelőhöz fordulás</h3>
+    <p>Ha bármilyen kérdésed, panaszod vagy kérésed van az adatkezeléssel kapcsolatban, írj <strong>bellgab@gmail.com</strong>-ra. Az adatkezelő 30 napon belül érdemi választ ad.</p>
+
+    <h3>9.2 NAIH (felügyeleti hatóság)</h3>
+    <p>Ha a válasz nem kielégítő, panaszt tehetsz a Nemzeti Adatvédelmi és Információszabadság Hatóságnál:</p>
+    <p><strong>Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)</strong><br>
+    Cím: 1055 Budapest, Falk Miksa utca 9-11.<br>
+    Postacím: 1363 Budapest, Pf.: 9.<br>
+    Telefon: +36 (1) 391-1400<br>
+    Email: ugyfelszolgalat@naih.hu<br>
+    Web: <a href="https://naih.hu">naih.hu</a></p>
+
+    <h3>9.3 Bírósági jogorvoslat</h3>
+    <p>Lakóhelyed szerinti törvényszékhez fordulhatsz, ha úgy ítéled, hogy az adatkezelésed jogai sérültek (GDPR 79. cikk + Infotv. 23. §).</p>
+
+    <h2>10. A tájékoztató módosítása</h2>
+    <p>Az adatkezelő fenntartja a jogot, hogy a tájékoztatót egyoldalúan módosítsa. A módosított tájékoztató a publikálás napjától hatályos. A módosításról a már nyilvántartott email-címekre külön értesítés küldhető, ha azt a változás jellege indokolja.</p>
+  </main>
+</body>
+</html>
