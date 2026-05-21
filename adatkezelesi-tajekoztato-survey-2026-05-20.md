@@ -8,18 +8,14 @@
 
 ## 1. Adatkezelő adatai
 
-**Adatkezelő neve:** Bell Gábor egyéni vállalkozó  
-**Székhely:** [KITÖLTENDŐ — bejegyzett székhely címe]  
-**Nyilvántartási szám:** [KITÖLTENDŐ — EV nyilvántartási szám]  
-**Adószám:** [KITÖLTENDŐ — magyar adószám, formátum: XXXXXXXX-X-XX]  
-**Email:** bellgab@gmail.com  
-**Telefon:** [opcionális — KITÖLTENDŐ vagy üresen hagyni]
+**Adatkezelő neve:** Bella Gábor egyéni vállalkozó  
+**Székhely:** 1164 Budapest, Vidámvásár utca 40.  
+**Nyilvántartási szám:** 54706806  
+**Adószám:** 55957359-1-42  
+**Email:** bellgab@bella-eke.hu  
+**Telefon:** +36501205690
 
 **Adatvédelmi kapcsolattartó:** Az adatkezelővel azonos személy (egyéni vállalkozói méret miatt külön adatvédelmi tisztviselő kinevezése nem kötelező a GDPR 37. cikke szerint).
-
-> **TODO Gábornak:** ezeket a mezőket pótolni a publikálás előtt. Ha a székhely lakcímmel egyezik, akkor azt kell beírni — a magánlakcím EV esetében hivatalos székhely-cím.
-
----
 
 ## 2. Az adatkezelés célja és jogalapja
 
@@ -173,58 +169,3 @@ Lakóhelyed szerinti törvényszékhez fordulhatsz, ha úgy ítéled, hogy az ad
 ## 10. A tájékoztató módosítása
 
 Az adatkezelő fenntartja a jogot, hogy a tájékoztatót egyoldalúan módosítsa. A módosított tájékoztató a publikálás napjától hatályos. A módosításról a már nyilvántartott email-címen tájékoztatást küldünk (ha érdemi változás történik).
-
----
-
-## Mellékletek
-
-### A) Q6 rövid változat (a Tally-formban inline megjelenik)
-
-```
-Email gyűjtésére csak akkor kerül sor, ha önként megadod.
-Felhasználás: aggregált eredmény + opcionálisan 1 pilot-megkeresés.
-Tárolás: Tally.so (EU) és Gmail, 12 hónapig.
-Törölhető bármikor (1 email a bellgab@gmail.com-ra).
-Részletes tájékoztató: [link]
-```
-
-### B) Tally setup-tudnivalók
-
-A Tally-formban három helyen kell adatkezelési információt megjeleníteni:
-
-1. **Form-header alatt rövid utalás**: pl. *"Az opcionális email-cím kezeléséhez lásd az [adatkezelési tájékoztatót](link)."* (1 mondatos)
-2. **Q6 alatti sub-text**: az A) mellékletbeli rövid változat.
-3. **Záró-képernyő (Thank you)**: 1 mondat utalás + link a teljes tájékoztatóra.
-
-A Tally beállítások közt **a GDPR consent checkbox** is bekapcsolható ("Show GDPR consent" toggle, Form Settings → Privacy). Ezt **bekapcsoljuk**, és az alábbi szöveg jelenik meg a Submit gomb fölött:
-
-```
-[ ] Hozzájárulok az adataim 12 hónapos kezeléséhez az
-    Adatkezelési tájékoztatóban foglaltak szerint.
-```
-
-A checkbox **kötelező** csak akkor, ha a Q6 ki van töltve. Ha nincs email, a checkbox nem szükséges (az anonim Q1-Q5-höz jogos érdek = elég).
-
-> **Megjegyzés a Tally korlátairól:** A "conditionally required" checkbox a Tally-ban Pro-funkció ($25/hó). Az ingyenes csomagon az egyszerűbb megoldás: a Q6 alatt egy információs blokk, ami magyarázza, hogy az email kitöltése automatikus hozzájárulást jelent — ez GDPR-szempontból elégséges, ha a tájékoztató előtte felugrott. Az "explicit checkbox" jobb pratika, de jogilag NEM kötelező.
-
-### C) Hosztolási opciók a teljes tájékoztatóra
-
-Mivel SynCore-nek még nincs saját domain-je, a hosszú tájékoztatónak link-elhető helyen kell lennie:
-
-1. **GitHub repo public file** (legegyszerűbb): pl. `https://github.com/bellgab/syncore-public/blob/main/adatkezelesi-tajekoztato.md` (publikus repó, csak ezt a fájlt tartalmazza).
-2. **GitHub Pages** (~10 perc setup): `https://bellgab.github.io/syncore-privacy/` — szebb URL, HTML-rendereléssel.
-3. **Tally inline static page** (Tally Pro): a Tally-fiókban közvetlenül.
-4. **Saját domain** (későbbi): pl. `syncore.hu/adatkezeles` — ha lesz domain és landing.
-
-**Javaslat:** GitHub public file vagy GitHub Pages (1-2 órás setup), ezzel egy stabil URL-t kapunk a tájékoztatóra anélkül, hogy a SynCore domain-re várnánk.
-
----
-
-## Status
-
-- [ ] Adatkezelő-mezők kitöltve (székhely, nyilvántartási szám, adószám)
-- [ ] Tájékoztató publikálva nyilvános URL-en (GitHub repo / Pages)
-- [ ] Tally-form GDPR consent toggle bekapcsolva
-- [ ] Q6 sub-text + form-header utalás beillesztve
-- [ ] Záró-képernyőn link a tájékoztatóra
-- [ ] T+12 hónapos törlés naptári emlékeztető beállítva
